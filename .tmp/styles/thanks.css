@@ -1,0 +1,665 @@
+.thanks{
+  display: block;
+  background-color: #ffffff;
+  min-height: 343px;
+  overflow: hidden;
+}
+
+.thanks h1 {
+    font-family: Norwester;
+    color:  #d3135a;
+    font-size: 117.026px;
+    font-weight: 400;
+    text-align: center;
+    -webkit-transform: scaleX(1.0144);
+        -ms-transform: scaleX(1.0144);
+            transform: scaleX(1.0144);
+    padding-top: 81px;
+    line-height: 100px;
+    min-height: 0;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.thanks .headline-caption-caps {
+    font-family: Open Sans;
+    color:  #484743;
+    font-size: 27.468px;
+    font-weight: 700;
+    line-height: 23.327px;
+    text-align: center;
+    -webkit-transform: scaleY(1.0195);
+        -ms-transform: scaleY(1.0195);
+            transform: scaleY(1.0195);
+    padding-top: 34px;
+}
+
+.thanks .headline-caption {
+    font-family: Open Sans;
+    color:  #880050;
+    font-size: 21.111px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 0;
+    -webkit-transform: scaleY(1.0419);
+        -ms-transform: scaleY(1.0419);
+            transform: scaleY(1.0419);
+}
+
+.purple-box {
+    height: 694px;
+    background-image: url('/images/thanks_violet_1000.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.purple-box .iphone-block {
+    padding: 53px 120px;
+    float: left;
+    width: 156px;
+}
+
+.purple-box .iphone-block-img{
+    background-image: url('/images/iPhone_ChooseRoom_v01.png');
+    width: 235px;
+    height: 483px;
+}
+
+.purple-box .description {
+    width: 515px;
+    height: 168px;
+    float: left;
+}
+
+.purple-box .description .head {
+    padding-top: 162px;
+}
+
+.purple-box .description .head-title {
+    font-family: Norwester;
+    color:  #ffffff;
+    font-size: 56.702px;
+    font-weight: 400;
+    text-align: left;
+    -webkit-transform: scaleX(1.0038);
+        -ms-transform: scaleX(1.0038);
+            transform: scaleX(1.0038);
+    text-transform: uppercase;
+}
+
+.purple-box .container .main {
+    font-family: Open Sans;
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    -webkit-transform: scaleX(1.0038);
+        -ms-transform: scaleX(1.0038);
+            transform: scaleX(1.0038); 
+    padding-top: 6px;
+    padding-left: 3px;
+    line-height: 26px;
+}
+
+.purple-box .container .sub-main {
+    font-family: Open Sans;
+    color:  #ffffff;
+    font-weight: 700;
+    text-align: left;
+    -webkit-transform: scaleX(1.0041);
+        -ms-transform: scaleX(1.0041);
+            transform: scaleX(1.0041);
+    padding-top: 41px;
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+.purple-box .download .download-link {
+    font-family: Norwester;
+    color: #ffffff;
+    font-size: 44px;
+    font-weight: 400;
+    padding-left: 5px;
+    padding-top: 6px;
+    -webkit-transform: scaleX(1.0054);
+        -ms-transform: scaleX(1.0054);
+            transform: scaleX(1.0054);
+    letter-spacing: 1px;
+}
+
+.purple-box .download .download-service {
+    margin-left: 5px;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+.purple-box .download .download-service .download-image {
+    background-repeat: no-repeat;
+    float: left;
+    padding-right: 14px;
+}
+
+.purple-box .download .download-service .download-apple {
+    background-image: url('/images/download-apple.png');
+    width: 128px;
+    height: 38px;
+}
+
+.purple-box .download .download-service .download-windows {
+    background-image: url('/images/download-windows.png');
+    width: 150px;
+    height: 38px;
+}
+
+.purple-box .download .download-service .download-google {
+    background-image: url('/images/download-google.png');
+    width: 110px;
+    height: 38px;
+}
+
+.purple-box .footnote {
+    margin-top: 3px;
+}
+
+.purple-box .footnote p{
+    font-family: Open Sans;
+    color:  #ffffff;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 11px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.purple-box:before{
+    border-width: 0 20px 18px 20px;
+    border-color: transparent transparent #fff transparent;
+    bottom: 0;
+    left: 50%;
+    margin-left: -18.5px;
+    bottom: auto;
+    top: -1px;
+    content: ' ';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    line-height: 0;
+    position: absolute; 
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+.yellow-box {
+    min-height: 351px;
+    background-image: url('/images/thanks_yellow_1000.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.yellow-box .container {
+    padding-top: 90px;
+    padding-left: 70px;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.yellow-box .container .description {
+    text-align: right;
+    font-family: Norwester;
+    width: 506px;
+    color:  #ffffff;
+    float: left;
+    font-size: 56.982px;
+    font-weight: 400;
+    -webkit-transform: scaleX(1.0032);
+        -ms-transform: scaleX(1.0032);
+            transform: scaleX(1.0032);
+    white-space: nowrap;
+}
+
+.yellow-box .container .icon-graphic {
+    float: right;
+    background-repeat: no-repeat;
+}
+
+.yellow-box .container .money-graphic {
+    background-image: url('/images/icon_money_white.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 75px;
+    height: 103px;
+    margin-left: 44px;
+    margin-top: 5px;
+}
+
+.yellow-box .container .plane-graphic {
+    background-image: url('/images/icon_plane_white.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 111px;
+    height: 109px;
+    margin-left: 21px;
+    margin-top: 3px;
+    margin-right: 43px;
+}
+
+.yellow-box .footnote {
+    margin-top: 8px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.yellow-box .footnote p{
+    text-align: right;
+    width: 506px;
+    float: left;
+    font-weight: 400;
+    -webkit-transform: scaleX(1.0032);
+        -ms-transform: scaleX(1.0032);
+            transform: scaleX(1.0032);
+    font-family: Open Sans;
+    color:  #ffffff;
+    font-size: 18px;
+}
+
+.blue-box {
+    background-image: url('/images/thanks_blue_1000.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 352px;
+    overflow: hidden;
+}
+
+.blue-box .container {
+    padding-top: 85px;
+    margin: 0 auto;
+    width: 620px;
+}
+
+.blue-box .container .description{
+    float: left;
+    padding-left: 46px;
+}
+
+.blue-box .container .description .description-head{
+    font-family: Norwester;
+    color:  #ffffff;
+    font-size: 56.993px;
+    font-weight: 400;
+    text-align: left;
+    -webkit-transform: scaleX(1.0032);
+        -ms-transform: scaleX(1.0032);
+            transform: scaleX(1.0032);
+    text-transform: uppercase;
+}
+
+.blue-box .container .description .description-content{
+    font-family: Open Sans;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: left;
+    -webkit-transform: scaleX(1.0032);
+        -ms-transform: scaleX(1.0032);
+            transform: scaleX(1.0032);
+    padding-top: 4px;
+    line-height: 27px;
+    padding-left: 4px;
+}
+
+.blue-box .container .gift-graphic{
+    background-image: url('/images/icon_gift_white.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 96px;
+    height: 105px;
+    margin-top:7px;
+}
+
+.blue-box .container .icon-graphic {
+    float: left;
+}
+
+
+#thanks .footer {
+    background-color:  #484743;
+    height: 173px;
+}
+
+
+/* tablet */
+@media (max-width: 1000px) {
+    .thanks{
+        min-height: 282px;
+    }
+
+    .thanks h1 {
+        padding-top: 54px;
+    }
+
+    .thanks .headline-caption-caps {
+        font-size: 24px;
+        padding: 35px 30px 50px 30px;
+    }
+
+    .thanks .headline-caption {
+        font-size: 20px;
+        font-family: Open Sans;
+    }
+
+    .purple-box {
+        height: 683px;
+        background-image: url('/images/thanks_violet_640.jpg');
+        padding-left: 72px;
+        overflow: hidden;
+    }
+
+    .purple-box .iphone-block {
+        float: none;
+        width: 100%;
+        padding: 38px 0 0 3px;
+    }
+
+    .purple-box .iphone-block-img{
+        background-image:  url('/images/iPhone.svg');
+        width: 58px;
+        height: 104px;
+
+    }
+
+    .purple-box .description {
+        width: 100%;
+        float: none;
+        white-space: nowrap;
+    }
+
+    .purple-box .description .head {
+        padding-top: 10px;
+    }
+
+    .purple-box .description .head-title {
+        font-family: Norwester;
+        color:  #ffffff;
+        font-size: 56.702px;
+        font-weight: 400;
+        text-align: left;
+        -webkit-transform: scaleX(1.0038);
+            -ms-transform: scaleX(1.0038);
+                transform: scaleX(1.0038); 
+        text-transform: uppercase;
+    }
+
+    .purple-box .container .main {
+        font-family: Open Sans;
+        color:  #ffffff;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+        -webkit-transform: scaleX(1.0038);
+            -ms-transform: scaleX(1.0038);
+                transform: scaleX(1.0038);
+        padding-top: 6px;
+        padding-left: 3px;
+        line-height: 26px;
+    }
+
+    .purple-box .container .sub-main {
+        font-family: Open Sans;
+        color:  #ffffff;
+        font-weight: 700;
+        text-align: left;
+        -webkit-transform: scaleX(1.0041);
+            -ms-transform: scaleX(1.0041);
+                transform: scaleX(1.0041);
+        padding-top: 41px;
+        padding-left: 5px;
+        font-size: 16px;
+    }
+
+    .purple-box .download {
+
+    }
+
+    .purple-box .download .download-link {
+        font-family: Norwester;
+        color: #ffffff;
+        font-size: 44px;
+        font-weight: 400;
+        padding-left: 5px;
+        padding-top: 6px;
+        -webkit-transform: scaleX(1.0054);
+            -ms-transform: scaleX(1.0054);
+                transform: scaleX(1.0054);
+        letter-spacing: 1px;
+    }
+
+    .purple-box .download .download-service {
+        margin-left: 5px;
+        margin-top: 2px;
+        display: inline-block;
+    }
+
+    .purple-box .download .download-service .download-image {
+        background-repeat: no-repeat;
+        float: left;
+        padding-right: 14px;
+    }
+
+    .purple-box .download .download-service .download-apple {
+        background-image: url('/images/download-apple.png');
+    }
+
+    .purple-box .download .download-service .download-windows {
+        background-image: url('/images/download-windows.png');
+    }
+
+    .purple-box .download .download-service .download-google {
+        background-image: url('/images/download-google.png');
+    }
+
+    .purple-box .footnote {
+        margin-top: 3px;
+    }
+
+    .purple-box .footnote p{
+        font-family: Open Sans;
+        color:  #ffffff;
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 11px; 
+        text-align: left;
+        padding-left: 5px;
+    }
+
+    .yellow-box {
+        min-height: 377px;
+        padding: 70px 70px 0 20px;
+        background-image: url('/images/thanks_yellow_640.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .yellow-box .container {
+        padding-top: 0;
+        padding-left: 0;
+        margin: 0 auto;
+        width: auto;
+    }
+
+    .yellow-box .container .description {
+        font-family: Norwester;
+        color:  #ffffff;
+        font-size: 57px;
+        font-weight: 400;
+        text-align: right;
+        -webkit-transform: scaleX(1.0032);
+            -ms-transform: scaleX(1.0032);
+                transform: scaleX(1.0032); 
+        width: 100%;
+        padding-top: 4px;
+    }
+
+    .yellow-box .container .icon-graphic {
+        float: right;
+        background-repeat: no-repeat;
+    }
+
+    .yellow-box .container .money-graphic {
+        width: 75px;
+        height: 108px;
+        margin-top: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .yellow-box .container .plane-graphic {
+        width: 110px;
+        height: 108px;
+        margin-top: -5px;
+        margin-right: -24px;
+        margin-left: 17px;
+    }
+
+    .yellow-box .footnote {
+        margin-top: 8px;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .yellow-box .footnote p{
+        width: 100%;
+        padding-left: 0;
+        font-family: Open Sans;
+        color:  #ffffff;
+        font-size: 17.998px; /* Approximation due to font substitution */
+        font-weight: 400;
+        text-align: right;
+        -webkit-transform: scaleX(1.0032);
+            -ms-transform: scaleX(1.0032);
+                transform: scaleX(1.0032); /* width and height properties ommitted due to transform */
+    }
+
+}
+@media (max-width: 640px) {
+    .thanks h1{
+        font-size: 80px;
+    }
+    .blue-box {
+        height: 460px;
+        padding: 80px 30px 0 30px;
+        background-repeat: no-repeat;
+        background-image: url('/images/thanks_blue_640.jpg');
+    }
+    .blue-box .container {
+        width: 100%;
+        padding-top: 0;
+    }    
+    .blue-box .container .description{
+        padding: 12px 0 0 0;
+    }
+    .blue-box .container .description .description-content br{
+        display: none;
+    }    
+    .blue-box .container .description .description-head{
+        font-size: 40px; 
+        text-transform: uppercase;
+    }    
+    .blue-box .container .icon-graphic{
+        width: 100%;
+        height: 107px;
+        margin-left: -5px;
+    }
+
+    .yellow-box {
+        height: 458px;
+        padding: 30px 30px;
+        background-image: url('/images/thanks_yellow_640.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .yellow-box .container {
+        padding-top: 0px;
+        margin: 0 auto;
+        width: auto;
+    }
+
+    .yellow-box .container .description {
+        padding-top: 10px;
+        font-size: 40px;
+        white-space: normal;
+    }
+    .yellow-box .container .icon-graphic {
+        float: right;
+        background-repeat: no-repeat;
+    }
+
+    .yellow-box .container .money-graphic {
+        width: 75px;
+        height: 108px;
+        margin-left: 44px;
+        margin-top: 5px;
+        padding-left: 0;
+    }
+
+    .yellow-box .container .plane-graphic {
+        width: 110px;
+        height: 108px;
+        margin-left: 21px;
+        margin-top: 5px;
+        margin-right: 0;
+    }
+
+    .yellow-box .footnote {
+        margin-top: 8px;
+        display: inline-block;
+    }
+
+    .yellow-box .footnote p br{
+        display: none;
+    }
+    .purple-box{
+        padding: 0 30px;
+    }
+    .purple-box .container{
+        display: none;
+    }
+    .purple-box .download {
+        padding-top: 20px;
+    }
+    .purple-box .container p.main br{
+        display: none;
+    }
+    .purple-box .description .head-title {
+        font-size: 40px;
+        white-space: normal;
+    }
+    .purple-box .footnote p{        
+        white-space: normal;
+    }
+    .purple-box .footnote p br{
+        display: none;
+    }   
+    .purple-box .download .download-service a{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .thanks h1{
+        font-size: 60px;
+    }
+    .purple-box .download .download-service a{
+        padding-right: 100%;
+    }
+    .purple-box .download .download-link {
+        font-size: 35px;
+    } 
+    .yellow-box .container .description br {
+        display: none;
+    }
+}

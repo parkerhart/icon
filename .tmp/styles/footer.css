@@ -1,0 +1,183 @@
+footer{
+  min-width: 320px;
+  min-height: 350px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #484743;
+}
+
+footer.main ul.brands{
+  width: 100%;
+  list-style-type: none;
+  padding-top: 40px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+footer.main ul.brands li{
+  background-image: url('/images/brandbar.png');
+  background-repeat: no-repeat;
+  background-size: 800px auto;
+  display: inline-block;
+}
+
+footer .copyright{
+  display: block;
+  margin: 0;
+  padding-top: 27px;
+  text-align: center;
+  font-size: 13px;
+  font-family: Open Sans;
+  font-weight: 400;
+  color: #a9a8a8;
+  letter-spacing: 0.7px;
+  width: 100%;
+}
+footer .copyright a{
+  color: #a9a8a8;
+}
+footer .copyright a:hover{
+  text-decoration: none;
+}
+
+footer.main ul.brands li{
+  height: 42px;
+  width: 51px;
+  padding-top: 20px;
+}
+
+footer.main ul.brands li.hi{
+  background-position: 0 -322px;
+}
+footer.main ul.brands li.hi:hover{
+  background-position: 0 -18px;
+}  
+footer.main ul.brands li.wa{
+  background-position: -55px -322px;
+}
+footer.main ul.brands li.wa:hover{
+  background-position: -55px -18px;
+}  
+footer.main ul.brands li.co{
+  background-position: -110px -322px;
+  width: 55px;
+}
+footer.main ul.brands li.co:hover{
+  background-position: -110px -18px;
+}  
+footer.main ul.brands li.ca{
+  background-position: -165px -322px;
+  width: 75px;
+}
+footer.main ul.brands li.ca:hover{
+  background-position: -165px -17px;
+}
+footer.main ul.brands li.cu{
+  background-position: -239px -322px;
+  width: 60px;
+}
+footer.main ul.brands li.cu:hover{
+  background-position: -239px -17px;
+}
+footer.main ul.brands li.dt{
+  background-position: -300px -322px;
+  width: 58px;
+}
+footer.main ul.brands li.dt:hover{
+  background-position: -300px -17px;
+}  
+footer.main ul.brands li.e{
+  background-position: -360px -322px;
+  width: 64px;
+}
+footer.main ul.brands li.e:hover{
+  background-position: -360px -17px;
+}  
+footer.main ul.brands li.ga{
+  background-position: -425px -322px;
+  width: 60px;
+}
+footer.main ul.brands li.ga:hover{
+  background-position: -425px -17px;
+}
+footer.main ul.brands li.ha{
+  background-position: -487px -322px;
+  width: 60px;
+}
+footer.main ul.brands li.ha:hover{
+  background-position: -487px -17px;
+}
+footer.main ul.brands li.hs{
+  background-position: -549px -322px;
+  width: 62px;
+}
+footer.main ul.brands li.hs:hover{
+  background-position: -549px -17px;
+}
+footer.main ul.brands li.h2{
+  background-position: -613px -322px;
+  width: 60px;
+}
+footer.main ul.brands li.h2:hover{
+  background-position: -613px -17px;
+}
+footer.main ul.brands li.hgv{
+  background-position: -675px -322px;
+  width: 65px;
+}
+footer.main ul.brands li.hgv:hover{
+  background-position: -675px -17px;
+}
+footer.main ul.brands li.hhh{
+  background-position: -740px -322px;
+  width: 65px;
+}
+footer.main ul.brands li.hhh:hover{
+  background-position: -740px -17px;
+}
+
+@media (min-width: 640px) {
+  footer{
+    min-height: 170px;
+  }
+  footer.main ul.brands{
+    width: 600px;
+    padding-top: 28px;
+  }
+  footer.main ul.brands li{
+    padding-top: 0;
+  }
+  footer .copyright{
+    font-size: 9px;
+    padding-top: 12px;
+    width: 100%;  
+    margin: 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  footer{
+    max-width: 1000px;
+    margin: 0 auto;
+    min-height: 150px;
+  }  
+  footer .copyright{
+    width: 700px;
+    margin: 50px auto 0 auto;
+  }
+
+  footer.main ul.brands{
+    width: 820px;
+    display: block;
+    margin-left: 110px;
+  }
+
+  footer.main ul.brands li{
+    float: left;
+  }
+
+  footer.main ul.brands li:hover{
+    cursor: pointer;
+  }
+}

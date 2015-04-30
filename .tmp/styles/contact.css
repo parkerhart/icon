@@ -1,0 +1,288 @@
+.contact{
+    position: relative;
+    background-image: url('/images/join_640.jpg');
+    background-color: #d13060;
+    padding-top: 96px;
+}
+
+.contact form{
+    margin: 0 auto;
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.contact form .left,
+.contact form .right,
+.contact form .center{
+    width: 100%;
+    float: left;
+}
+
+.contact form optgroup{
+    display: none;
+}
+.contact form select optgroup{
+    display: block;
+}
+
+.contact form .left div,
+.contact form .right div,
+.contact form .center div{
+    margin-bottom: 11px;
+    color: #ffffff;
+}
+
+.contact form p{
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.contact form ul
+{
+    list-style-type: none;
+}
+
+.contact input,
+.contact select{
+    width: 100%;
+    height: 59px;
+    margin-top: 0px;
+    margin-bottom: 47px;
+    font-size: 18px;
+    background-color: #ffffff;
+    text-indent: 20px;
+    font-family: Open Sans;
+}
+.contact select{
+    color: rgb(171, 171, 171);
+}
+
+.contact input{
+    color: rgb(97, 97, 97);
+}
+.contact label{
+    width: 100px;
+    font-family: Open Sans;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+    -webkit-transform: scaleY(1.0007);
+        -ms-transform: scaleY(1.0007);
+            transform: scaleY(1.0007);
+}
+
+.center div.checkbox{
+    margin: 23px auto 32px auto;
+}
+
+.center div.checkbox input{
+    float: left;
+    width: 31px;
+    height: 31px;
+}
+
+.center div.checkbox label{
+    margin-left: 60px;
+    display: block;
+    width: auto;
+    text-align: left;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.center div.checkbox label a{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.center div.checkbox label a:hover{
+    text-decoration: none;
+}
+
+.center div.button{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 43px;
+}
+
+.center div.button input{
+    font-family: Norwester;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #8b0051;
+
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 100%;
+    height: 72px;
+    font-size: 47px;
+    line-height: 30px;
+    text-indent: -25px;
+}
+
+.contact form input.error,
+.contact form select.error {
+    border: 1px solid #c00;
+}
+
+.contact form label.error {
+    display: block;
+    width: 100%;
+    margin-top: -45px;
+    margin-bottom: 20px;
+}
+
+.center.note{
+    padding-top: 66px;
+    padding-bottom: 50px;
+    font-size: 26px;
+    font-weight: 400;
+    -webkit-transform: scaleX(1.0018);
+        -ms-transform: scaleX(1.0018);
+            transform: scaleX(1.0018);
+}
+
+.contact:before{
+    border-width: 0 20px 18px 20px;
+    border-color: transparent transparent #fff transparent;
+    bottom: 0;
+    left: 50%;
+    margin-left: -18.5px;
+    bottom: auto;
+    top: 0;
+    content: ' ';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    line-height: 0;
+    position: absolute; 
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+.thank-you{
+    display: none;
+}
+
+@media (min-width: 640px) {
+    .contact{
+        text-align: center;
+        padding-top: 41px;
+    }
+    .contact form ul li{
+        width: 100%;
+        float: left;
+    }
+    .contact input,
+    .contact select{
+        height: 48px;
+        margin-bottom: 0;
+        margin-top: 14px;
+        background-color: #ffffff;
+    }
+
+    .contact .center input{
+        width: 100%;
+    }
+
+    .contact form p{
+        font-size: 18px;
+    }
+
+    .contact label{
+        font-size: 13px;
+    }
+
+    .center div.button input{
+        margin: 20px 0 26px 0;
+        width: 207px;
+        height: 48px;
+        text-indent: 0;
+        font-size: 32px;
+        cursor: pointer;
+    }
+
+    .center div.button p{
+        font-size: 12px;
+    }
+
+    .center div.button input:hover{
+        background-color: #ffffff;
+        color: #d3135a;
+    }
+
+    .center div.checkbox{
+        width: 95%;
+        margin: 0 0 7px 0;
+    }
+
+    .center div.checkbox:first-child{
+        margin-top: 30px;
+    }
+
+    .center div.checkbox input{
+        margin-left: 0;
+        margin-top: 2px;
+        width: 27px;
+        height: 27px;
+    }
+
+    .center div.checkbox label{
+        margin-left: 42px;
+        font-size: 12px;
+        line-height: 15px;
+        padding-top: 0;
+    }
+
+    .center.note{
+        font-size: 18px;
+        padding-top: 41px;
+        padding-bottom: 24px;
+    }
+
+    .contact form{
+        width: 622px;
+        padding: 0;
+    }
+
+    .contact form .left{
+        float: left;
+    }
+
+    .contact form .left,
+    .contact form .right{
+        text-align: right;
+        width: 304px;
+    }
+
+    .contact form .right{
+        float: right;
+    }
+
+    .contact form label.error
+    {
+        padding-right: 26px;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1000px) {
+    .contact{
+        max-width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+        background-color: #ffffff;
+        background-image: url('/images/join_1000.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .contact form .right input,
+    .contact form .right select
+    {
+        margin-right: 26px;
+    }
+}
